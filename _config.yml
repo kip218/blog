@@ -17,12 +17,13 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-facebook: "#"
-twitter: "#"
-linkedin: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
+# facebook: "#"
+# twitter: "#"
+linkedin: "kanginpark"
+github: "kip218"
+email: "kip218@nyu.edu"
+# researchgate: "#"
+# orcid: "#"
 
 highlighter: rouge
 markdown: kramdown
