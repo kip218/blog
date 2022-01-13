@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Kang In Park
-description: Software Engineering & Cybersecurity
+# description: Software Engineering & Cybersecurity
 
 # baseurl: #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
