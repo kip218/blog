@@ -8,17 +8,21 @@ published: true
 ---
 
 
----
-# Hi, I'm Kang In!
+# 👋 Hi, I'm Kang In!
 I am currently studying Computer Science and Cybersecurity at NYU.  
 While my initial reason for pursuing a Computer Science degree was game engineering,  
 I eventually picked up an interest in Cybersecurity.  
 I have been participating in online [CTF competitions](https://ctftime.org/ctf-wtf/) as a member of [OSIRIS](https://www.osiris.cyber.nyu.edu/) ever since.
 
+&nbsp;\\
+**Previously, I have worked at:** \\
+✈️ *Republic of Korea Air Force* as an *Enlisted Aircraft Mechanic* (2019-2021) \\
+👨‍🏫 *NYU TRIO Scholars* as a *Python Tutor* (2018-2019)
 
-### Previously, I have worked at:
-- *Republic of Korea Air Force: Enlisted Aircraft Mechanic (2019-2021)*
-- *NYU TRIO Scholars: Python Tutor (2018-2019)*
+&nbsp;\\
+**In my free time, I enjoy:** \\
+🎮 *Gaming with friends* \\
+🏓 *Playing Table Tennis*
 
 
 <!-- [Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.

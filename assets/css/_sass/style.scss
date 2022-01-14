@@ -107,6 +107,11 @@ blockquote {
   font-style: italic;
 }
 
+mark {
+  background-color: $brand-color2;
+  color: $body-bg;
+}
+
 
 .headline, .post-headline {
   font-size: 2em;
