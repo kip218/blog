@@ -12,12 +12,12 @@ published: true
 I am currently studying Computer Science and Cybersecurity at NYU.  
 While my initial reason for pursuing a Computer Science degree was game engineering,  
 I eventually picked up an interest in Cybersecurity.  
-I have been participating in online [CTF competitions](https://ctftime.org/ctf-wtf/) as a member of [OSIRIS](https://www.osiris.cyber.nyu.edu/) ever since.
+I have been participating in online [CTF competitions](https://ctftime.org/ctf-wtf/){:target="_blank"} as a member of [OSIRIS](https://www.osiris.cyber.nyu.edu/){:target="_blank"} ever since.
 
 &nbsp;\\
 **Previously, I have worked at:** \\
-✈️ *Republic of Korea Air Force* as an *Enlisted Aircraft Mechanic* (2019-2021) \\
-👨‍🏫 *NYU TRIO Scholars* as a *Python Tutor* (2018-2019)
+✈️ [Republic of Korea Air Force](https://en.wikipedia.org/wiki/Republic_of_Korea_Air_Force){:target="_blank"} as an *Enlisted Aircraft Mechanic* (2019-2021) \\
+👨‍🏫 [NYU TRIO Scholars](https://engineering.nyu.edu/academics/support-services/undergraduate/trio-scholars-program/about-trio){:target="_blank"} as a *Python Tutor* (2018-2019)
 
 &nbsp;\\
 **In my free time, I enjoy:** \\
