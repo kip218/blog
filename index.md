@@ -16,6 +16,7 @@ I am also CompTIA Security+ [certified](/assets/CompTIA_Certificate.pdf){:target
 
 &nbsp;\\
 **Previously, I have worked at:** \\
+👨🏼‍💻 [SecurityScorecard](https://securityscorecard.com/){:target="_blank"} as a *Signal Intelligence Collections Intern* (2022-2022)
 ✈️ [Republic of Korea Air Force](https://en.wikipedia.org/wiki/Republic_of_Korea_Air_Force){:target="_blank"} as an *Enlisted Aircraft Mechanic* (2019-2021) \\
 👨‍🏫 [NYU TRIO Scholars](https://engineering.nyu.edu/academics/support-services/undergraduate/trio-scholars-program/about-trio){:target="_blank"} as a *Python Tutor* (2018-2019)
 
