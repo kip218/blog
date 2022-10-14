@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Cryptanalysis of a Class of Ciphers based on Frequency Analysis using Index of Coincidence and Chi Squared Test"
+title: "Project: Applied Cryptography"
 ---
 
-## Applied Cryptography Project 2022
+## Cryptanalysis of a Class of Ciphers 2022
 
 (In Progress)
 
