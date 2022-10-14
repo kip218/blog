@@ -24,9 +24,15 @@ If you're interested, feel free to see my latest projects [here](https://kangin.
 
 &nbsp;\\
 **In my free time, I enjoy:** \\
-🎮 *Gaming with friends* \\
+🎮 *Gaming with Friends* \\
 🏓 *Playing Table Tennis* \\
 📺 *Watching Netflix*
+
+&nbsp;\\
+**I'm especially passionate about:** \\
+🏆 *Competitive Gaming and E-Sports* \\
+🐍 *Automating Stuff with Python* \\
+🔐 *Fun Cryptography Challenges*
 
 
 <!-- [Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
