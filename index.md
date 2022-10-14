@@ -14,7 +14,7 @@ While my initial reason for pursuing a Computer Science degree was game engineer
 I have been participating in online [CTF competitions](https://ctftime.org/ctf-wtf/){:target="_blank"} as a member of [OSIRIS](https://www.osiris.cyber.nyu.edu/){:target="_blank"} ever since. \\
 I am also CompTIA Security+ [certified](/assets/CompTIA_Certificate.pdf){:target="_blank"}.
 
-If you're interested, feel free to see my latest projects [here] (https://kangin.me/blog/)!
+If you're interested, feel free to see my latest projects [here](https://kangin.me/blog/)!
 
 &nbsp;\\
 **Previously, I have worked at:** \\
