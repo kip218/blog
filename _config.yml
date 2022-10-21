@@ -64,5 +64,3 @@ plugins:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-target-blank
-  # - kramdown-parser-gfm
-  # - rouge
