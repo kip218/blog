@@ -4,7 +4,7 @@ title: Kang In Park
 # description: Software Engineering & Cybersecurity
 
 # baseurl: #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+url: "https://kangin.me" #custom url to be used instead of GitHub repository
 email: #
 
 
@@ -64,3 +64,5 @@ plugins:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-target-blank
+  - kramdown-parser-gfm
+  - rouge
