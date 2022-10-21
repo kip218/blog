@@ -65,6 +65,11 @@ def encrypt(plaintext, key):
 	return ciphertext
 ```
 
+{% highlight python %}
+def test():
+	print("test success?")
+{% endhighlight %}
+
 &nbsp;
 ## 2. Cryptanalysis Approach
 
