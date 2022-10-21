@@ -10,6 +10,8 @@ email: #
 
 highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
 
 # Pagination
 paginate: 4
