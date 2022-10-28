@@ -31,7 +31,7 @@ If you're interested, feel free to see my latest projects [here](https://kangin.
 &nbsp;\\
 **I'm especially passionate about:** \\
 🏆 *Competitive Gaming and E-Sports* \\
-🐍 *Automating Stuff with Python* \\
+🐍 *Writing Clean Code with Python* \\
 🔐 *Fun Cryptography Challenges*
 
 

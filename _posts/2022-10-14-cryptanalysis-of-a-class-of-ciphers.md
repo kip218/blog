@@ -28,9 +28,7 @@ In our final algorithm, Kang In implemented the Index of Coincidence calculation
 
 Here is our understanding of the cipher described by the project.
 
-The text space is restricted to be in the set of {space, ‘a’, ‘b’, ‘c’, …, ‘z’} a total of 27 different elements, with no symbol (e.g. comma, period, etc.) presented. The key space is restricted to be in the set of {0, 1, 2, …, 26} a total of 27 different elements with the key length restriction in the range of [1, 24]. 
-
-With the above conditions set, now we can further elaborate on the algorithm scheme.
+The text space is restricted to be in the set of {space, ‘a’, ‘b’, ‘c’, …, ‘z’} a total of 27 different symbols. The key space is restricted to be in the set of {0, 1, 2, …, 26} a total of 27 different elements with the key length `t` being between 1 and 24 inclusive.
 
 The encryption algorithm takes in 3 parameters: a string of plaintext, a key, and lastly, a preset probability value. The encryption process will be using the text from the text space as defined above, to substitute any characters in the plain text. For example, an alphabet can be replaced with a space, and a space char can be replaced with an alphabet.
 
