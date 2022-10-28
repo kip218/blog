@@ -6,6 +6,7 @@ layout: default
   {% for post in paginator.posts %}
     <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     <p>{{post.excerpt | strip_html}}</p>
+    <p>{{post.date | date_to_long_string: "ordinal", 'US'}}</p>
     <br>
   {% endfor %}
 </div>

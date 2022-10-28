@@ -2,6 +2,7 @@
 layout: post
 title: "Cryptanalysis of a Class of Ciphers"
 excerpt: "Applied Cryptography: Project 1"
+date: "2022-10-14"
 ---
 
 # Applied Cryptography: Project 1

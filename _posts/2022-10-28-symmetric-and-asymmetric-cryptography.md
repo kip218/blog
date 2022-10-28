@@ -2,6 +2,7 @@
 layout: post
 title: "Algorithms in Symmetric and Asymmetric Cryptography"
 excerpt: "A Brief Introduction to AES and RSA"
+date: "2022-10-28"
 ---
 
 Cryptographic schemes can be categorized into two major types: Symmetric and Asymmetric. In modern day cryptography, these two types of cryptographic schemes are used to ensure confidentiality, authentication, and integrity of our internet traffic. Without them, every message we send through the internet would be sent in plaintext, allowing malicious users to listen in and eavesdrop on the conversation.
