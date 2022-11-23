@@ -21,7 +21,7 @@ ARP stands for "Address Resolution Protocol". As its name suggests, ARP is a pro
 &nbsp;
 ## Setting up the lab environment
 
-The lab was done through [Immersive Labs](https://www.immersivelabs.com/).
+The lab was done through [Immersive Labs](https://www.immersivelabs.com/){:target="_blank"}.
 The environment was set up using Docker containers to simulate three machines: two victim machines (A and B) and one malicious attacker machine (M).
 
 <p align="center">
@@ -45,3 +45,46 @@ After running the code, we can `docksh` into our machine A. If we check its ARP 
 	<img src="/assets/images/Arp_Attack/arp_cache1.png" />
 </p>
 
+&nbsp;
+## MITM using ARP cache poisoning
+
+The next step in the lab was to implement a Man-In-The-Middle (MITM) attack over Netcat using ARP cache poisoning. The general idea of this attack is to trick both machines A and B into thinking that their IP addresses are mapped to machine M's MAC address. All messages that A sends to B and vice versa will go through machine M, and the attacker in control of machine M can eavesdrop or even modify the packets before forwarding them to its recipient.
+
+First step is to poison the ARP cache of both A and B using the following code:
+
+<p align="center">
+	<img src="/assets/images/Arp_Attack/attack_code2.png" />
+</p>
+
+We can see that the ARP cache of both A and B points to the MAC address of machine M.
+
+ARP cache of machine A:
+
+<p align="center">
+	<img src="/assets/images/Arp_Attack/arp_cacheA.png" />
+</p>
+
+ARP cache of machine B:
+
+<p align="center">
+	<img src="/assets/images/Arp_Attack/arp_cacheB.png" />
+</p>
+
+After enabling IP forwarding on machine M, we can intercept and modify packet contents between A and B. For demonstration purposes, I created a script to replace all instances of my name "Kang In" with "AAAA AA".
+
+The script:
+
+<p align="center">
+	<img src="/assets/images/Arp_Attack/mitm_code.png" />
+</p>
+
+While I have the script running on machine M, I established a Netcat connection between A and B and started sending messages from A to B. We can see that whenever A sends my name "Kang In", B only sees "AAAA AA". Cool!
+
+<p align="center">
+	<img src="/assets/images/Arp_Attack/mitm_demo.png" />
+</p>
+
+&nbsp;
+## Conclusion
+
+I had previously heard about ARP poisoning attacks and MITM attacks, but this was the first time I implemented it first hand. It was a really interesting lab that showcased how malicious attackers can intercept and inject false messages into a victim's packet contents. If this sounds interesting, I encourage you to check out Immersive Labs!
