@@ -19,7 +19,7 @@ If you're interested, feel free to see my latest projects [here](https://kangin.
 &nbsp;\\
 **Previously, I have worked at:** \\
 👨🏼‍💻 [SecurityScorecard](https://securityscorecard.com/){:target="_blank"} as a *Signal Intelligence Collections Intern* (2022) \\
-✈️ [Republic of Korea Air Force](https://en.wikipedia.org/wiki/Republic_of_Korea_Air_Force){:target="_blank"} as an *Enlisted Aircraft Mechanic* (2019-2021) \\
+✈️ [Republic of Korea Air Force](https://www.airforce.mil.kr/user/indexMain.action?siteId=airforce-eng){:target="_blank"} as an *Enlisted Aircraft Mechanic* (2019-2021) \\
 👨‍🏫 [NYU TRIO Scholars](https://engineering.nyu.edu/academics/support-services/undergraduate/trio-scholars-program/about-trio){:target="_blank"} as a *Python Tutor* (2018-2019)
 
 &nbsp;\\
