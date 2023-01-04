@@ -30,7 +30,7 @@ A famous example of these password breaches is Rockyou. The Rockyou password lis
 To prevent these breaches from happening again, a hashing algorithm can be used to hash the password before storing them in the database. The idea is simple - when a user registers an account with a password, the server will put it through the hash function and store the hash value in the database instead of the plaintext value. This way, when an attacker gains unauthorized access to the database, they still won’t be able to derive the actual passwords from the password hash since a hash function is irreversible. Verifying passwords during login is also an easy task. When a user types in their password, the server will receive the password, put it through the same hash function, and compare the hash value with the one stored in the database. Recall that a hash function is deterministic - meaning that the same password input will always give the same output, allowing the server to verify the correct password.
 
 <p align="center">
-	<img src="/assets/images/hashing/password_hashing.png"
+	<img src="/assets/images/Hashing/password_hashing.png"
 		 width=500 />
 </p>
 
@@ -41,7 +41,7 @@ To prevent these breaches from happening again, a hashing algorithm can be used 
 While the internet has made it really easy to share files and download documents, one of the major problems with internet security is that these files can often be malicious, containing malware that will sabotage the host computer without the user even realizing it. Attackers can execute Man-In-The-Middle attacks to intercept file transfers and modify its contents to something fake or even dangerous. On some websites that provide download files, they often provide a “checksum” value next to the file. Here is an example from the download page of Arch Linux:
 
 <p align="center">
-    <img src="/assets/images/hashing/arch_linux_checksum.png"
+    <img src="/assets/images/Hashing/arch_linux_checksum.png"
          width=700 />
 </p>
 
@@ -54,7 +54,7 @@ So, what are these values? SHA256 and BLAKE2b are two different hashing algorith
 Hashing algorithms are also an essential part of blockchain networks - it is a core concept of Bitcoin’s consensus algorithm (Proof-of-Work) and provides an efficient way to verify that a new block has been mined properly with the correct transaction data. As we have discussed in our course, a blockchain network is collectively maintained by everyone in the network. To put it simply, a blockchain network is a distributed ledger / database in which every node in the network keeps track of every transaction that has happened thus far. However, as one can imagine, having everyone in the network keep a record of all past transactions would be highly inefficient, especially as time goes on and the history of transactions becomes larger in size. To solve this problem, blockchain networks use hashing algorithms to reduce the size of these records. Recall that an important property of hashing algorithms is that it produces the same length output regardless of the input size. By just keeping track of the hash value of the previous block on the blockchain, the network can efficiently reference this hash value to run the Proof-of-Work consensus algorithm and create a new hash value which verifies all past transaction records until the current block.
 
 <p align="center">
-    <img src="/assets/images/hashing/bitcoin_hash.png"
+    <img src="/assets/images/Hashing/bitcoin_hash.png"
          width=500 />
 </p>
 
@@ -71,14 +71,14 @@ One attack against hashing algorithms is called the “collision attack”. As i
 However, it is inevitable that a hash function has collisions. To understand why, we can refer to a concept called the Pigeonhole Principle. The principle states that given X number of pigeonholes and Y number of pigeons, and there are more pigeons than pigeonholes, then there must be at least one pigeonhole that contains more than one pigeon. The image below demonstrates this concept eloquently:
 
 <p align="center">
-    <img src="/assets/images/hashing/pigeonhole.png"
+    <img src="/assets/images/Hashing/pigeonhole.png"
          width=200 />
 </p>
 
 So how is this relevant to hashing algorithms? Well, in the case of hashing functions, the input size is the number of pigeons, and the output size is the number of pigeonholes. Recall that all hashing algorithms produce the same size output regardless of input size. The input size of a hashing algorithm is unlimited, whereas its output is always of fixed size (128 bits in the case of MD5). Because of this, it is inevitable that there exists an output that maps to more than one input, resulting in a hash collision.
 
 <p align="center">
-    <img src="/assets/images/hashing/pigeonhole_function.png"
+    <img src="/assets/images/Hashing/pigeonhole_function.png"
          width=200 />
 </p>
 
@@ -89,7 +89,7 @@ Another attack against vulnerable hash algorithms is something called a “Rainb
 Some rainbow tables for obsolete hashing algorithms are available online, and anyone can use it to do a reverse look-up search to find the original input based on the hashed output. Crackstation is one of those online tools that provide reverse look-up search for hashing algorithms (mainly for MD5 and SHA1). According to their website, they use a 190 GB database with 15 billion entries to perform the reverse search. As one can imagine, building a rainbow table from scratch requires a lot of computing power and time. However, once these tables are built and disclosed online, the targeted hashing algorithm becomes vulnerable to rainbow table attacks.
 
 <p align="center">
-    <img src="/assets/images/hashing/rainbow_table.png"
+    <img src="/assets/images/Hashing/rainbow_table.png"
          width=400 />
 </p>
 
