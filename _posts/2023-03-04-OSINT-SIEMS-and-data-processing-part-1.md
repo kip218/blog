@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OSINT, SIEMS, and data processing"
+title: "OSINT, SIEMS, and Data Processing Part 1"
 excerpt: "Identifying threats and attacks"
 date: "2023-03-04"
 ---
