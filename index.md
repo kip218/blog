@@ -9,7 +9,9 @@ published: true
 
 
 # 👋 Hi, I'm Kang In!
-I am currently studying Computer Science and Cybersecurity at NYU. \\
+I am a **Backend-focused Software Engineer** with exposure to frontend technologies. I am most comfortable with **Python**.\\
+I recently graduated from NYU with a major in **Computer Science** and a minor in **Cybersecurity**.
+
 While my initial reason for pursuing a Computer Science degree was game engineering, I eventually picked up an interest in Cybersecurity. \\
 I have been participating in online [CTF competitions](https://ctftime.org/ctf-wtf/){:target="_blank"} as a member of [OSIRIS](https://osiris.cyber.nyu.edu/){:target="_blank"} ever since. \\
 I am also CompTIA Security+ [certified](/assets/CompTIA_Certificate.pdf){:target="_blank"}.
