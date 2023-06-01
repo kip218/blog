@@ -9,7 +9,7 @@ published: true
 
 
 # 👋 Hi, I'm Kang In!
-I am a **Backend-focused Software Engineer** primarily using **Python**. \\
+I am an aspiring **Backend Software Engineer** primarily using **Python**. \\
 I recently graduated from NYU with a major in **Computer Science** and a minor in **Cybersecurity**.
 
 While my initial reason for pursuing a Computer Science degree was game engineering, I eventually picked up an interest in Cybersecurity. \\
