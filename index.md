@@ -9,14 +9,14 @@ published: true
 
 
 # 👋 Hi, I'm Kang In!
+
 I am an aspiring **Backend Software Engineer** primarily using **Python**. \\
 I recently graduated from NYU with a major in **Computer Science** and a minor in **Cybersecurity**.
 
-While my initial reason for pursuing a Computer Science degree was game engineering, I eventually picked up an interest in Cybersecurity. \\
-I have been participating in online [CTF competitions](https://ctftime.org/ctf-wtf/){:target="_blank"} as a member of [OSIRIS](https://osiris.cyber.nyu.edu/){:target="_blank"} ever since. \\
-I am also CompTIA Security+ [certified](/assets/CompTIA_Certificate.pdf){:target="_blank"}.
+I am currently looking for full-time software engineering roles in the US. If you're interested, feel free to see my latest [projects](https://kangin.me/blog/) and check out my [resume](https://kangin.me/assets/Resume.pdf)!
 
-If you're interested, feel free to see my latest projects [here](https://kangin.me/blog/)!
+At NYU, I have been participating in online [CTF competitions](https://ctftime.org/ctf-wtf/){:target="_blank"} as a member of [OSIRIS](https://osiris.cyber.nyu.edu/){:target="_blank"}. \\
+I am CompTIA Security+ [certified](/assets/CompTIA_Certificate.pdf){:target="_blank"}.
 
 &nbsp;\\
 **Previously, I have worked at:** \\
