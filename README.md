@@ -1,3 +1,3 @@
-# Personal Website
+Old personal website
 
-Check it out at https://kangin.me
+New portfolio at [kangin.me](https://kangin.me)
